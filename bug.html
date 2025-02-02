@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Bug</title>
+</head>
+<body>
+  <div id="myDiv"></div>
+  <script>
+    // Incorrect usage of innerHTML with multiple elements
+    document.getElementById('myDiv').innerHTML = "<p>Paragraph 1</p> <p>Paragraph 2</p>";
+  </script>
+</body>
+</html>
